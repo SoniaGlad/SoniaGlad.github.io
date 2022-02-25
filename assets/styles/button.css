@@ -1,13 +1,13 @@
 .button {
   height: 64px;
   padding: 19px 24px;
-  background-color: var(--color-light-pink);
+  background-color: var(--color-green);
   font-family: "Lato", sans-serif;
   font-style: italic;
   font-weight: 600;
   font-size: 20px;
   line-height: 1.2;
-  color: var(--color-black);
+  color: var(--color-green-dark);
   display: inline-block;
   transition: 0.2s all;
   text-transform: uppercase;
@@ -17,7 +17,7 @@
 .button:hover,
 .button:active,
 .button:focus {
-  background-color: var(--color-yellow-dark);
+  background-color: #198c19;
 }
 
 .button.button_block {
